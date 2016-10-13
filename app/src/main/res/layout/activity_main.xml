@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="horizontal"
+    tools:context="id.sch.smktelkom_mlg.learn.intent3.MainActivity">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageViewPhone"
+        app:srcCompat="@drawable/ic_call_black_24dp"
+        android:layout_weight="1"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageViewSMS"
+        app:srcCompat="@drawable/ic_message_black_24dp"
+        android:layout_weight="1"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageViewBrowser"
+        app:srcCompat="@drawable/ic_language_black_24dp"
+        android:layout_weight="1"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageViewCamera"
+        app:srcCompat="@drawable/ic_photo_camera_black_24dp"
+        android:layout_weight="1"/>
+</LinearLayout>
